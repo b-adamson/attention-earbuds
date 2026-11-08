@@ -1,0 +1,35 @@
+# Data and large files: never commit
+data/*
+!data/README.md
+*.hdf5
+*.h5
+*.fif
+*.wav
+*.mp3
+*.flac
+*.zip
+*.npy
+*.npz
+*.pt
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude Code local instructions
+CLAUDE.md
+.claude/
